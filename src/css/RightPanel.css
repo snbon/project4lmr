@@ -137,10 +137,11 @@
 }
 
 .submit-button,
-.continue-button {
+.next-question-button {
   width: 100%;
   height: 50px;
   border: none;
+  outline: none;
   border-radius: 8px;
   background-color: #ffe200;
   color: #0c3359;
@@ -151,8 +152,14 @@
 }
 
 .submit-button:hover:not(:disabled),
-.continue-button:hover {
+.next-question-button:hover {
   background-color: #ffe200;
+}
+
+.submit-button:focus,
+.next-question-button:focus {
+  outline: none;
+  border: none;
 }
 
 .submit-button:disabled {

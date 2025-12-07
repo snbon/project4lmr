@@ -99,7 +99,7 @@ const RightPanel = ({ question }) => {
             </button>
           ) : (
             <button
-              className="continue-button"
+              className="next-question-button"
               onClick={nextQuestion}
             >
               {continueButtonText}
