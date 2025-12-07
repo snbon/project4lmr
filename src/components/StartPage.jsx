@@ -25,7 +25,7 @@ const StartPage = () => {
             Codebase
           </a>
           <a 
-            href="/assets/plan-van-aanpak.pdf" 
+            href="/plan-van-aanpak.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="link-button"
