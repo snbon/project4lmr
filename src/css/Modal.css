@@ -1,0 +1,152 @@
+.game-overview-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.game-overview-modal {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffe200;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0c3359;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.close-button:hover {
+  background-color: #ffe200;
+  transform: scale(1.1);
+}
+
+.close-button svg {
+  font-size: 24px;
+}
+
+.continue-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.continue-button {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffe200;
+  color: #0c3359;
+}
+
+.continue-button:hover {
+  background-color: #ffe200;
+  transform: scale(1.1);
+}
+
+.modal-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0c3359;
+  margin: 0 0 16px 0;
+  text-align: center;
+}
+
+.result-message {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0c3359;
+  margin: 0 0 32px 0;
+  text-align: center;
+  padding: 16px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.summary-label {
+  font-size: 14px;
+  color: #666;
+  font-weight: 400;
+}
+
+.summary-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0c3359;
+}
+
+
+.trophy-section {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.trophy-large {
+  font-size: 120px;
+  color: #ffe200;
+  filter: drop-shadow(0 4px 8px rgba(255, 215, 0, 0.3));
+}
+
+
+.info-section {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0c3359;
+  margin: 0 0 12px 0;
+}
+
+.section-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+

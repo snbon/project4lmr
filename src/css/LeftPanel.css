@@ -1,0 +1,156 @@
+.left-panel {
+  flex: 0 0 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: transparent;
+}
+
+.left-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #1e4570;
+  padding: 8px 16px; 
+  border-radius: 8px;
+  color: #fff;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.timer-icon {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.progress-container {
+  flex: 1;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: #082038;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #ffd700;
+  border-radius: 6px;
+  transition: width 0.3s ease;
+}
+
+.level-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+
+.info-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 1; 
+}
+
+.card-image-header {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px 16px 0 0;
+  position: relative;
+}
+
+.avatar-wrapper {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.avatar-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 50px 24px 24px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0c3359;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #334e68;
+  margin: 0;
+}
+
+.left-panel-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-button {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #0f3057;
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  transition: all 0.2s ease;
+}
+
+.icon-button:hover:not(:disabled) {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.map-button {
+  flex: 1;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffe200;
+  color: #0c3359;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: default;
+}

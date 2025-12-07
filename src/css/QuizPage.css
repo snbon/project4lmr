@@ -1,0 +1,20 @@
+.quiz-container {
+  display: flex;
+  align-items: stretch;
+  width: 100vw;
+  height: 100vh;
+  gap: 24px;
+  padding: 24px;
+}
+
+.quiz-container.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-message {
+  font-size: 24px;
+  color: #fff;
+}
+
