@@ -58,12 +58,17 @@
 }
 
 .continue-button {
-  width: 50%;
+    width: 50%;
   height: 50px;
   border: none;
+  outline: none;
   border-radius: 8px;
   background-color: #ffe200;
   color: #0c3359;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .continue-button:hover {
