@@ -2,6 +2,8 @@
 
 Een educatieve quiz applicatie (quiz component) ontwikkeld voor Little Miss Robot met React.
 
+![Quiz Component - Frame 1](https://github.com/user-attachments/assets/041db07a-66b8-4646-ae60-38ccf1175492)
+
 ## Technologie Stack
 
 - **React** 
